@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Task List (Dom Manipulation)</title>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="card-content">
+            <form id="task-form">
+                <div class="input-field">
+                    <!-- Add Button -->
+                    <label class="input-label" for="task">Add Task</label>
+                    <input class="task-input" type="text" name="task" >
+                </div>
+                <!-- value="Walk the dog" -->
+                <input class="btn-add" type="submit" value="Add Task">
+            </form>
+        </div>
+
+
+        <!-- Tasks  -->
+        <div class="card-action">
+            <h5 id="task-title">Tasks</h5>
+            
+            <!-- Filter -->
+            <div class="input-field">
+                <label class="input-label" for="filter">Filter Tasks</label>
+                <input class="filter" type="text" name="filter">
+            </div>
+            <ul class="collection">
+                <!-- <li class="collection-item">List Item<a href="#" class="delete-item">
+                        <i class="far fa-trash-alt"></i>
+                    </a></li> -->
+            </ul>
+            <br>
+            <!-- Clear Button  -->
+            <a class="btn-clear" href="#">Clear Tasks</a>
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
