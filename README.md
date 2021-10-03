@@ -1,2 +1,19 @@
-# Task_List
-Task list of JS Dom Manipulation
+
+# Task List
+
+This is my first task list project without using bootstrap. I'll work on this project to make it faster without applying any libraries.
+
+
+## Screenshots
+
+![Task List Screenshot](/Users/user/Documents/Web Development/Source Code/myGitProjects/Task_List/task_list.png)
+
+  
+## Features
+
+- Add task
+- Remove task
+- Clear all tasks
+- Filter/search all tasks
+
+  
