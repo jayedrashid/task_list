@@ -6,8 +6,7 @@ This is my first task list project without using bootstrap. I'll work on this pr
 
 ## Screenshots
 
-![Task List Screenshot](/Users/user/Documents/Web Development/Source Code/myGitProjects/Task_List/task_list.png)
-
+<img src="task_list.png">
   
 ## Features
 
